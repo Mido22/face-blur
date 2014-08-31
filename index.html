@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Face Detection Test</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+<header>
+<h1>Hide Face</h1>
+</header>
+
+  <p> Welcome to Anonmyouos</p>
+  <div>
+    <video id='video' autoplay='true'  width=720 height=540></video>
+  </div>
+  <div class='container'>
+    <canvas class='canvas' id='canvas1' width=720, height=540></canvas>
+    <canvas class='canvas' id='canvas2' width=720, height=540></canvas>
+  </div>
+  <div>
+    <canvas id='tc' width=280, height=210></canvas>
+  </div>
+<script src="js/jq.js"></script>
+<script src="js/ccv.js"></script>
+<script src="js/face.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
